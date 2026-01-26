@@ -680,6 +680,21 @@ files = [
 ]
 
 [[package]]
+name = "tabulate"
+version = "0.9.0"
+description = "Pretty-print tabular data"
+optional = false
+python-versions = ">=3.7"
+groups = ["main"]
+files = [
+    {file = "tabulate-0.9.0-py3-none-any.whl", hash = "sha256:024ca478df22e9340661486f85298cff5f6dcdba14f3813e8830015b9ed1948f"},
+    {file = "tabulate-0.9.0.tar.gz", hash = "sha256:0095b12bf5966de529c0feb1fa08671671b3368eec77d7ef7ab114be2c068b3c"},
+]
+
+[package.extras]
+widechars = ["wcwidth"]
+
+[[package]]
 name = "tzdata"
 version = "2025.3"
 description = "Provider of IANA time zone data"
@@ -731,4 +746,4 @@ dkim = ["dkimpy"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13"
-content-hash = "96856f281a6aee89751cc0c64ce266caa9a5aaa52306a6c3f05dcf6a372611dd"
+content-hash = "78477b515d8a57d5548b0ffaf1fe1d856c9462a57d6b2a5d5279c901a81c7694"
